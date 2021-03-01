@@ -1,0 +1,13 @@
+//Criando projeto NodeJS com TypeScript:
+
+1 - instalar middleware express { yarn add express }
+2 - instalar os Types do express pra reconhecimento da tipagem { yarn add @types/express -D}
+3 - instalar o TypeScript como Desenvolvimento {yarn add TypeScript -D}
+4 - criar o arquivo de configuração do TypeScript {yarn tsc --init}
+5 - Instalar o inicializador do TypeScript { yarn add ts-node-dev -D}
+6 - no package.Json adicionar a seguinte linha { 
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+	}
+ 
